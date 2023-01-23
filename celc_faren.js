@@ -2,6 +2,6 @@
 // Формула перевода градусов Цельсия в градусы Фаренгейта: градусы Фаренгейта = (9 / 5) * градусы Цельсия + 32
 // Вывести в консоль температуру в Цельсиях и Фаренгейтах.
 
-const celsius = 21;
+const celsius = 26;
 const fahrenheit = (9 / 5) * celsius + 32;
-alert(`Цельсий ${celsius}, Фаренгейт ${fahrenheit.toFixed(1)}`);
+console.log(`Цельсий ${celsius}, Фаренгейт ${fahrenheit.toFixed(1)}`);
